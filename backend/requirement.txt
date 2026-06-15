@@ -1,0 +1,100 @@
+# ============================================================
+# requirements.txt — conflict-verified, Python 3.10+
+#
+# Constraint notes:
+#   fastapi 0.136.1     → starlette>=0.46.0, pydantic>=2.9.0
+#   pydantic 2.13.4     → pydantic-core==2.46.4 (exact), typing-extensions>=4.14.1
+#   gliner 0.2.26       → transformers>=4.51.3,<5.2.0  torch>=2.0.0
+#   transformers 4.56.2 → tokenizers>=0.22.0,<=0.23.0  safetensors>=0.4.3
+#   bcrypt 4.x          → passlib 1.7.4 has a known warning with bcrypt>=4;
+#                          pinned to 3.x to keep passlib working silently
+# ============================================================
+
+# ------------------------------------------------------------
+# Web Framework
+# fastapi 0.136.1 requires starlette>=0.46.0
+# ------------------------------------------------------------
+fastapi==0.136.1
+starlette==1.0.0                # >=0.46.0 ✓
+uvicorn==0.34.3                 # latest stable; no conflict with above
+python-multipart==0.0.20        # required for UploadFile; >=0.0.18 ✓
+
+# ------------------------------------------------------------
+# Data Validation
+# pydantic 2.13.4 pins pydantic-core==2.46.4 exactly
+# ------------------------------------------------------------
+pydantic==2.13.4
+pydantic-core==2.46.4           # EXACT pin required by pydantic 2.13.4
+annotated-types==0.7.0          # >=0.6.0 ✓
+typing-extensions==4.14.1       # >=4.14.1 ✓ (pydantic + typing-inspection)
+typing-inspection==0.4.2        # required by fastapi 0.136.1
+
+# ------------------------------------------------------------
+# Database — SQLAlchemy
+# ------------------------------------------------------------
+sqlalchemy==2.0.41              # latest 2.x; no conflict
+psycopg2-binary==2.9.10         # PostgreSQL driver (uncomment if using PostgreSQL)
+
+# ------------------------------------------------------------
+# Authentication & Security
+# bcrypt pinned to 3.x — passlib 1.7.4 emits deprecation warning
+# with bcrypt>=4 due to changed __about__ attribute
+# ------------------------------------------------------------
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==3.2.2                   # last 3.x release; avoids passlib/bcrypt>=4 warning
+
+# ------------------------------------------------------------
+# Document Extraction
+# ------------------------------------------------------------
+pdfminer.six==20250506
+python-docx==1.1.2
+
+# ------------------------------------------------------------
+# NER — Lightweight medical NLP  (replaces scispaCy/spaCy)
+#
+# Three-tier auto-fallback in extractionlayer.py:
+#   Tier 1 — GLiNER   (best accuracy, zero-shot, ~400 MB auto-download)
+#   Tier 2 — HuggingFace transformers pipeline  (~400 MB auto-download)
+#   Tier 3 — Regex/dictionary  (zero dependencies, always available)
+#
+# GLiNER 0.2.26 requires transformers>=4.51.3,<5.2.0
+# transformers 4.56.2 requires tokenizers>=0.22.0,<=0.23.0
+# ------------------------------------------------------------
+gliner==0.2.26
+transformers==4.56.2            # latest with arm64 tokenizers wheel; satisfies gliner <5.2.0
+tokenizers==0.22.2              # 0.23.0 has no macOS arm64 wheel; 0.22.2 satisfies >=0.22.0,<=0.23.0
+safetensors==0.5.3              # >=0.4.3 ✓
+sentencepiece==0.2.0            # required by gliner tokenizer
+onnxruntime==1.21.1             # required by gliner inference
+huggingface-hub==0.34.0         # satisfies both gliner (>=0.21.4) and transformers
+torch==2.6.0                    # >=2.0.0 ✓; CPU install, no CUDA needed
+#   CPU-only torch install (smaller download, ~250 MB vs ~2 GB):
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+
+# ------------------------------------------------------------
+# Fuzzy Matching  (normalizationlayer.py)
+# ------------------------------------------------------------
+thefuzz==0.22.1
+rapidfuzz==3.14.1               # thefuzz uses this as its fast backend
+
+# ------------------------------------------------------------
+# HTTP Requests  (normalizationlayer.py NIH API calls)
+# ------------------------------------------------------------
+requests==2.32.4
+
+# ------------------------------------------------------------
+# Graph Database
+# ------------------------------------------------------------
+neo4j==6.2.0                    # requires pytz
+pytz==2025.2                    # neo4j runtime dep
+
+# ------------------------------------------------------------
+# Environment / Config
+# ------------------------------------------------------------
+python-dotenv==1.1.0
+
+# ------------------------------------------------------------
+# Standard library (built-in, no install needed)
+# uuid | hashlib | logging | re | io | csv | difflib | functools | urllib.parse
+# ------------------------------------------------------------

@@ -1,0 +1,5001 @@
+diagnosis_name,icd_code
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0
+Maple syrup urine disease,E71.0
+Galactosemia,E74.21
+Mucopolysaccharidosis,E76.9
+Fabry disease,E75.21
+Pompe disease,E74.02
+Niemann-Pick disease,E75.249
+Tay-Sachs disease,E75.02
+Krabbe disease,E75.23
+Metachromatic leukodystrophy,E75.25
+Adrenoleukodystrophy,E71.520
+Friedreich ataxia,G11.11
+Spinal muscular atrophy,G12.9
+Duchenne muscular dystrophy,G71.01
+Becker muscular dystrophy,G71.01
+Myotonic dystrophy,G71.11
+Limb-girdle muscular dystrophy,G71.09
+Facioscapulohumeral muscular dystrophy,G71.09
+Charcot-Marie-Tooth disease,G60.0
+Hereditary spastic paraplegia,G11.4
+Spinocerebellar ataxia,G11.19
+Prion disease,A81.9
+Rabies,A82.9
+Dengue fever,A90
+Malaria,B54
+Typhoid fever,A01.00
+Cholera,A00.9
+Ebola,A98.4
+Zika virus,A92.5
+West Nile virus,A92.30
+Lyme disease,A69.20
+Rocky Mountain spotted fever,A77.0
+Brucellosis,A23.9
+Legionnaires disease,A48.1
+Listeriosis,A32.9
+Salmonellosis,A02.0
+Campylobacteriosis,A04.5
+Clostridium difficile infection,A04.72
+Methicillin-resistant Staphylococcus aureus,A49.02
+Vancomycin-resistant enterococcus,A49.89
+Candidiasis,B37.9
+Aspergillosis,B44.9
+Cryptococcosis,B45.9
+Histoplasmosis,B39.9
+Coccidioidomycosis,B38.9
+Blastomycosis,B40.9
+Sporotrichosis,B42.9
+Toxoplasmosis,B58.9
+Cryptosporidiosis,A07.2
+Giardiasis,A07.1
+Amebiasis,A06.9
+Pinworm infection,B80
+Ascariasis,B77.9
+Hookworm infection,B76.9
+Schistosomiasis,B65.9
+Leishmaniasis,B55.9
+Trypanosomiasis,B56.9
+Filariasis,B74.9
+Onchocerciasis,B73.00
+Echinococcosis,B67.9
+Taeniasis,B68.9
+Hypertension,I10
+Type 2 Diabetes,E11.9
+Asthma,J45.909
+Viral upper respiratory tract infection,J06.9
+COVID-19,U07.1
+Pneumonia,J18.9
+Nicotine dependence,Z87.891
+Headache,R51.9
+Fever,R50.9
+Cough,R05.9
+Nausea,R11.0
+Fatigue,R53.83
+Shortness of breath,R06.00
+Chest pain,R07.9
+Chronic kidney disease,N18.9
+Heart failure,I50.9
+Atrial fibrillation,I48.91
+Coronary artery disease,I25.10
+Hyperlipidemia,E78.5
+Obesity,E66.9
+Major depressive disorder,F32.9
+Generalized anxiety disorder,F41.1
+Bipolar disorder,F31.9
+Schizophrenia,F20.9
+ADHD,F90.9
+Autism spectrum disorder,F84.0
+Epilepsy,G40.909
+Migraine,G43.909
+Multiple sclerosis,G35
+Parkinson disease,G20
+Alzheimer disease,G30.9
+Stroke,I63.9
+Transient ischemic attack,G45.9
+Deep vein thrombosis,I82.401
+Pulmonary embolism,I26.99
+Chronic obstructive pulmonary disease,J44.1
+Bronchitis,J40
+Sinusitis,J32.9
+Otitis media,H66.90
+Urinary tract infection,N39.0
+Kidney stones,N20.0
+Gastroesophageal reflux disease,K21.0
+Peptic ulcer disease,K27.9
+Irritable bowel syndrome,K58.9
+Crohn disease,K50.90
+Ulcerative colitis,K51.90
+Liver cirrhosis,K74.60
+Hepatitis B,B18.1
+Hepatitis C,B18.2
+HIV disease,B20
+Tuberculosis,A15.9
+Sepsis,A41.9
+Cellulitis,L03.90
+Eczema,L30.9
+Psoriasis,L40.9
+Acne,L70.0
+Rheumatoid arthritis,M05.9
+Osteoarthritis,M19.90
+Osteoporosis,M81.0
+Gout,M10.9
+Fibromyalgia,M79.3
+Systemic lupus erythematosus,M32.9
+Hypothyroidism,E03.9
+Hyperthyroidism,E05.90
+Type 1 Diabetes,E10.9
+Polycystic ovary syndrome,E28.2
+Anemia,D64.9
+Iron deficiency anemia,D50.9
+Vitamin D deficiency,E55.9
+Breast cancer,C50.919
+Lung cancer,C34.90
+Colorectal cancer,C18.9
+Prostate cancer,C61
+Cervical cancer,C53.9
+Leukemia,C95.90
+Lymphoma,C85.90
+Melanoma,C43.9
+Bladder cancer,C67.9
+Pancreatic cancer,C25.9
+Glaucoma,H40.9
+Cataracts,H26.9
+Macular degeneration,H35.30
+Diabetic retinopathy,E11.3519
+Hearing loss,H91.90
+Sleep apnea,G47.30
+Insomnia,G47.00
+Vertigo,H81.39
+Tinnitus,H93.19
+Carpal tunnel syndrome,G56.00
+Plantar fasciitis,M72.2
+Frozen shoulder,M75.00
+Herniated disc,M51.16
+Sciatica,M54.42
+Low back pain,M54.50
+Neck pain,M54.2
+Shoulder pain,M75.9
+Knee pain,M25.561
+Hip pain,M25.551
+Ankle sprain,S93.401A
+Fracture of wrist,S62.001A
+Concussion,S09.90XA
+Burns,T30.0
+Allergic rhinitis,J30.9
+Food allergy,Z91.018
+Drug allergy,Z88.9
+Contact dermatitis,L25.9
+Urticaria,L50.9
+Angioedema,T78.3XXA
+Anaphylaxis,T78.2XXA
+Dehydration,E86.0
+Electrolyte imbalance,E87.8
+Hypoglycemia,E16.0
+Hyperglycemia,R73.09
+Hyponatremia,E87.1
+Hyperkalemia,E87.5
+Abdominal pain,R10.9
+Diarrhea,R19.7
+Constipation,K59.00
+Vomiting,R11.10
+Dysphagia,R13.10
+Jaundice,R17
+Edema,R60.9
+Syncope,R55
+Palpitations,R00.2
+Dyspnea,R06.09
+Wheezing,R06.2
+Hemoptysis,R04.2
+Hematuria,R31.9
+Proteinuria,R80.9
+Polyuria,R35.0
+Dysuria,R30.0
+Incontinence,R32
+Erectile dysfunction,N52.9
+Menorrhagia,N92.0
+Dysmenorrhea,N94.6
+Amenorrhea,N91.2
+Vaginitis,N76.0
+Pelvic inflammatory disease,N73.9
+Endometriosis,N80.9
+Uterine fibroids,D25.9
+Ovarian cyst,N83.20
+Ectopic pregnancy,O00.90
+Preeclampsia,O14.90
+Gestational diabetes,O24.419
+Postpartum depression,F53.0
+Neonatal jaundice,P59.9
+Failure to thrive,R62.51
+Developmental delay,F88
+Cerebral palsy,G80.9
+Down syndrome,Q90.9
+Cystic fibrosis,E84.9
+Sickle cell disease,D57.1
+Hemophilia,D66
+Thalassemia,D56.9
+Von Willebrand disease,D68.0
+Myasthenia gravis,G70.00
+Guillain-Barre syndrome,G61.0
+Amyotrophic lateral sclerosis,G12.21
+Huntington disease,G10
+Wilson disease,E83.01
+Gaucher disease,E75.22
+Marfan syndrome,Q87.40
+Ehlers-Danlos syndrome,Q79.60
+Osteogenesis imperfecta,Q78.0
+Achondroplasia,Q77.4
+Turner syndrome,Q96.9
+Klinefelter syndrome,Q98.4
+Neurofibromatosis,Q85.00
+Tuberous sclerosis,Q85.1
+Phenylketonuria,E70.0

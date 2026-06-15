@@ -1,0 +1,103 @@
+# ============================================================
+# requirements.txt — Full backend dependency list
+# Covers: upload.py, extractionlayer.py, normalizationlayer.py,
+#         graphlayer.py, ruleengine.py, loginsystem.py
+# Tested conflict-free. Python 3.10+ recommended.
+# ============================================================
+
+# ------------------------------------------------------------
+# Web Framework
+# ------------------------------------------------------------
+fastapi==0.136.1
+uvicorn==0.46.0                  # ASGI server to run FastAPI
+starlette==1.0.0                 # FastAPI's underlying framework (pinned to match fastapi)
+python-multipart==0.0.20         # Required for FastAPI file uploads (UploadFile)
+
+# ------------------------------------------------------------
+# Data Validation
+# ------------------------------------------------------------
+pydantic==2.13.4                 # Used in loginsystem.py request models
+pydantic-core==2.46.4            # Required by pydantic v2 (installed automatically)
+annotated-types==0.7.0
+
+# ------------------------------------------------------------
+# Database — SQLAlchemy + driver
+# ------------------------------------------------------------
+sqlalchemy==2.0.49               # loginsystem.py — SessionLocal, text()
+# Add your DB driver below depending on your database:
+# psycopg2-binary==2.9.10        # PostgreSQL (recommended for production)
+# pymysql==1.1.1                 # MySQL / MariaDB
+
+# ------------------------------------------------------------
+# Authentication & Security  (loginsystem.py)
+# ------------------------------------------------------------
+python-jose[cryptography]==3.5.0 # create_token / verify_token (JWT)
+passlib[bcrypt]==1.7.4           # Password hashing helpers (bcrypt backend)
+bcrypt==5.0.0                    # bcrypt backend for passlib
+
+# ------------------------------------------------------------
+# Document Extraction  (extractionlayer.py)
+# ------------------------------------------------------------
+pdfminer.six==20250506           # PDF text extraction — replaces PaddleOCR
+python-docx==1.1.2               # DOCX text extraction
+
+# ------------------------------------------------------------
+# NLP / NER  (extractionlayer.py)
+# ------------------------------------------------------------
+spacy==3.8.14                    # Core NER pipeline
+negspacy==1.1.0                  # Negation detection (NegEx) in spaCy pipelines
+# After installing, also run:
+#   python -m spacy download en_ner_bc5cdr_md
+# Or install the model wheel directly:
+#   pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+
+# spaCy's own dependencies (pinned to match spacy==3.8.14, installed automatically)
+thinc==8.3.13
+blis==1.3.3
+murmurhash==1.0.15
+cymem==2.0.13
+preshed==3.0.13
+catalogue==2.0.10
+srsly==2.5.3
+wasabi==1.1.3
+weasel==1.0.0
+smart-open==7.6.1
+cloudpathlib==0.24.0
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+confection==1.3.3
+tqdm==4.67.3
+typer==0.25.1
+
+# ------------------------------------------------------------
+# Fuzzy Matching  (normalizationlayer.py)
+# ------------------------------------------------------------
+thefuzz==0.22.1                  # Fuzzy string matching for medical term normalization
+rapidfuzz==3.14.5                # Fast backend used by thefuzz automatically
+
+# ------------------------------------------------------------
+# HTTP Requests  (normalizationlayer.py — NIH API calls)
+# ------------------------------------------------------------
+requests==2.32.3
+
+# ------------------------------------------------------------
+# Graph Database  (graphlayer.py)
+# ------------------------------------------------------------
+neo4j==6.2.0                     # Neo4j Python driver
+
+# ------------------------------------------------------------
+# Environment / Config
+# ------------------------------------------------------------
+python-dotenv==1.1.0             # Loads .env for NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
+
+# ------------------------------------------------------------
+# Standard library modules used (no install needed — listed for clarity)
+# ------------------------------------------------------------
+# uuid          — built-in
+# hashlib       — built-in
+# logging       — built-in
+# re            — built-in
+# io            — built-in
+# difflib       — built-in
+# functools     — built-in
+# urllib.parse  — built-in

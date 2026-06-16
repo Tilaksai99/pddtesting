@@ -1,0 +1,14 @@
+selenium==4.21.0
+pytest==8.2.0
+pytest-html==4.1.1
+pytest-json-report==1.5.0
+appium-python-client==3.1.0
+requests==2.31.0
+openpyxl==3.1.2
+Pillow==10.3.0
+webdriver-manager==4.0.1
+pytest-timeout==2.3.1
+pytest-ordering==0.6
+colorama==0.4.6
+faker==25.0.0
+python-dotenv==1.0.1

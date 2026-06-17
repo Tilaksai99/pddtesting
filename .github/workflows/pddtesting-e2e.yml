@@ -82,7 +82,7 @@ jobs:
 
       - name: 📊 Generate Excel Analysis Report
         run: |
-          python testing/generate_test_report.py --junit testing/reports/master_junit.xml
+          PYTHONPATH=. python testing/generate_test_report.py --junit testing/reports/master_junit.xml
 
       - name: 📤 Upload Excel Report as Artifact
         uses: actions/upload-artifact@v4

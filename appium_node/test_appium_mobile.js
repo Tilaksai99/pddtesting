@@ -348,9 +348,26 @@ async function runTests() {
   } catch (globalErr) {
     console.error(`💥 Fatal error during E2E test execution: ${globalErr.message}`);
   } finally {
-    if (driver) await driver.deleteSession();
+    if (typeof driver !== 'undefined' && driver) await driver.deleteSession();
     console.log('\n🏁 E2E Testing Session Finished.');
     printReportSummary(results);
+    saveResultsJson(results);
+  }
+}
+
+const fs = require('fs');
+const path = require('path');
+
+function saveResultsJson(results) {
+  try {
+    const dir = path.join(__dirname, '../testing/reports');
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    fs.writeFileSync(path.join(dir, 'mobile_results.json'), JSON.stringify(results, null, 2));
+    console.log(`💾 Saved mobile results to testing/reports/mobile_results.json`);
+  } catch (err) {
+    console.error(`Failed to save results JSON: ${err.message}`);
   }
 }
 
@@ -396,6 +413,7 @@ function runSimulatedSuite() {
   }));
 
   printReportSummary(results);
+  saveResultsJson(results);
 }
 
 function printReportSummary(results) {

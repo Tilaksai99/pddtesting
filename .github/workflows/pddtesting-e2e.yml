@@ -68,7 +68,7 @@ jobs:
       - name: 🚀 Serve Frontend Web App
         run: |
           # Serve the compiled dist directory on port 8081
-          nohup python3 -m http.server 8081 --directory frontend/dist > web_server.log 2>&1 &
+          nohup python3 scripts/spa_server.py 8081 frontend/dist > web_server.log 2>&1 &
           sleep 3
           curl -I http://localhost:8081/ || (cat web_server.log && exit 1)
 
@@ -79,6 +79,12 @@ jobs:
         run: |
           mkdir -p testing/reports
           python -m pytest testing/api testing/unit testing/functional testing/selenium_web --junitxml=testing/reports/master_junit.xml --tb=short -v || echo "Some tests failed"
+
+      - name: 📱 Run Appium Mobile Simulated Tests
+        run: |
+          cd appium_node
+          npm install
+          node test_appium_mobile.js
 
       - name: 📊 Generate Excel Analysis Report
         run: |
@@ -93,9 +99,4 @@ jobs:
 
       - name: 📝 Post Step Summary
         run: |
-          echo "## 🏥 PancreaScan E2E Test Run Summary" >> $GITHUB_STEP_SUMMARY
-          echo "All E2E web and API tests have been run successfully." >> $GITHUB_STEP_SUMMARY
-          echo "### Test Case Results:" >> $GITHUB_STEP_SUMMARY
-          echo "- **Passed**: 267 test cases" >> $GITHUB_STEP_SUMMARY
-          echo "- **Failed**: 0" >> $GITHUB_STEP_SUMMARY
-          echo "- **Excel Report**: Generated and uploaded as artifact \`MedicalAutomation-Analysis-Report\`" >> $GITHUB_STEP_SUMMARY
+          cat testing/reports/step_summary.md >> $GITHUB_STEP_SUMMARY

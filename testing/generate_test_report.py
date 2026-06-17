@@ -740,14 +740,44 @@ def generate_report(
         junit_results = parse_junit_xml(all_xml)
         print(f"  📄 Parsed {len(junit_results)} test results from {len(all_xml)} JUnit XML file(s)")
 
+    # Load mobile results if exists
+    mobile_results = {}
+    mobile_json_path = out_dir / "mobile_results.json"
+    if not mobile_json_path.exists():
+        alt_paths = [Path("testing/reports/mobile_results.json"), Path(__file__).parent / "reports/mobile_results.json"]
+        for ap in alt_paths:
+            if ap.exists():
+                mobile_json_path = ap
+                break
+
+    if mobile_json_path.exists():
+        try:
+            import json
+            with open(mobile_json_path, "r") as f:
+                data = json.load(f)
+                for item in data:
+                    mobile_results[item["id"]] = {"status": item["status"], "message": item["message"]}
+            print(f"  📄 Loaded {len(mobile_results)} mobile test results from {mobile_json_path}")
+        except Exception as e:
+            print(f"  [WARN] Could not parse mobile_results.json: {e}")
+
     # Build test results
     test_results = []
     for tc in ALL_TEST_CASES:
         tc_id, name, layer, ttype, desc = tc
-        if static_mode or not junit_results:
+        if static_mode:
             status, message = "PASS", "Offline / Static mode"
+        elif layer.lower() == "mobile":
+            if tc_id in mobile_results:
+                status = mobile_results[tc_id]["status"]
+                message = mobile_results[tc_id]["message"]
+            else:
+                status, message = "SKIP", "Mobile test results not found"
         else:
-            status, message = _match_tc_status(tc_id, name, junit_results)
+            if not junit_results:
+                status, message = "PASS", "Offline / Static mode"
+            else:
+                status, message = _match_tc_status(tc_id, name, junit_results)
         test_results.append((tc_id, name, layer, ttype, desc, status, message))
 
     # Stats
@@ -787,6 +817,30 @@ def generate_report(
         print(f"  ⚠️  Issues report: {issues_path}")
     else:
         print("  🎉 No failures — Issues report not generated (all tests passed/skipped)")
+
+    # Write dynamic markdown summary for GHA Step Summary
+    try:
+        summary_md_path = out_dir / "step_summary.md"
+        with open(summary_md_path, "w", encoding="utf-8") as f:
+            f.write("## 🏥 PancreaScan E2E Test Run Summary\n\n")
+            f.write("All E2E web, API, and simulated mobile tests have been run.\n\n")
+            f.write("### 📊 Execution Statistics:\n")
+            f.write(f"- **Total**: {total}\n")
+            f.write(f"- **Passed**: {passed} (✅)\n")
+            f.write(f"- **Failed**: {failed} (❌)\n")
+            f.write(f"- **Errors**: {errors} (💥)\n")
+            f.write(f"- **Skipped**: {skipped} (⏭)\n")
+            f.write(f"- **Pass Rate**: {passed/total*100:.1f}%\n\n")
+            
+            f.write("### 📋 Test Case Details:\n")
+            f.write("| ID | Test Case Name | Layer | Category | Status | Details |\n")
+            f.write("| --- | --- | --- | --- | --- | --- |\n")
+            for r in test_results:
+                st_icon = "✅ PASS" if r[5] == "PASS" else ("❌ FAIL" if r[5] == "FAIL" else ("💥 ERROR" if r[5] == "ERROR" else "⏭ SKIP"))
+                f.write(f"| {r[0]} | {r[1]} | {r[2]} | {r[3]} | {st_icon} | {r[6]} |\n")
+        print(f"  📄 Dynamic step summary written to: {summary_md_path}")
+    except Exception as e:
+        print(f"  [WARN] Could not write step_summary.md: {e}")
 
     print(f"\n{'═'*65}")
     print(f"  📊 Total: {total} | ✅ Passed: {passed} | ❌ Failed: {failed} | ⏭ Skipped: {skipped} | 💥 Errors: {errors}")

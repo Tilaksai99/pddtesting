@@ -8,10 +8,95 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-tests:
-    name: 🧪 Run E2E Test Suite
+  unit-tests:
+    name: 🧩 Run Unit Tests
     runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
 
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt -r testing/requirements_test.txt
+
+      - name: 🧪 Run Pytest Unit Tests
+        run: |
+          mkdir -p testing/reports
+          python -m pytest testing/unit --junitxml=testing/reports/unit_junit.xml --tb=short -v || echo "Some tests failed"
+
+      - name: 📤 Upload Unit Test Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-results
+          path: testing/reports/unit_junit.xml
+
+  api-functional-tests:
+    name: 🔌 Run API & E2E Functional Tests
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_DB: Medicalcoding
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt -r testing/requirements_test.txt
+
+      - name: 🟢 Start FastAPI Backend
+        env:
+          DATABASE_URL: postgresql://postgres:password@localhost:5432/Medicalcoding
+          JWT_SECRET: your_super_secret_jwt_key_here
+          JWT_ALGORITHM: HS256
+          JWT_EXPIRE_MINUTES: 1440
+        run: |
+          # Start uvicorn server in background
+          nohup uvicorn backend.main:app --host 127.0.0.1 --port 8000 > backend.log 2>&1 &
+          # Wait for server to start
+          sleep 5
+          curl -I http://127.0.0.1:8000/ || (cat backend.log && exit 1)
+
+      - name: 🧪 Run Pytest API & Functional Tests
+        env:
+          API_BASE_URL: http://127.0.0.1:8000
+        run: |
+          mkdir -p testing/reports
+          python -m pytest testing/api testing/functional --junitxml=testing/reports/functional_junit.xml --tb=short -v || echo "Some tests failed"
+
+      - name: 📤 Upload API & Functional Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: functional-results
+          path: testing/reports/functional_junit.xml
+
+  selenium-web-tests:
+    name: 🌐 Run Selenium Web Tests
+    runs-on: ubuntu-latest
     services:
       postgres:
         image: postgres:15
@@ -72,23 +157,84 @@ jobs:
           sleep 3
           curl -I http://localhost:8081/ || (cat web_server.log && exit 1)
 
-      - name: 🧪 Run pytest Test Suite
+      - name: 🧪 Run Pytest Selenium Tests
         env:
           SELENIUM_BASE_URL: http://localhost:8081
           API_BASE_URL: http://127.0.0.1:8000
         run: |
           mkdir -p testing/reports
-          python -m pytest testing/api testing/unit testing/functional testing/selenium_web --junitxml=testing/reports/master_junit.xml --tb=short -v || echo "Some tests failed"
+          python -m pytest testing/selenium_web --junitxml=testing/reports/selenium_junit.xml --tb=short -v || echo "Some tests failed"
 
-      - name: 📱 Run Appium Mobile Simulated Tests
+      - name: 📤 Upload Selenium Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-results
+          path: testing/reports/selenium_junit.xml
+
+  appium-mobile-tests:
+    name: 📱 Run Appium Mobile Simulated Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📱 Run Appium Node Simulated Tests
         run: |
           cd appium_node
           npm install
           node test_appium_mobile.js
 
-      - name: 📊 Generate Excel Analysis Report
+      - name: 📤 Upload Mobile Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-results
+          path: testing/reports/mobile_results.json
+
+  generate-reports:
+    name: 📊 Generate Reports & Publish Summary
+    runs-on: ubuntu-latest
+    needs: [unit-tests, api-functional-tests, selenium-web-tests, appium-mobile-tests]
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Python Dependencies
         run: |
-          PYTHONPATH=. python testing/generate_test_report.py --junit testing/reports/master_junit.xml
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt -r testing/requirements_test.txt
+
+      - name: 📥 Download Unit Results
+        uses: actions/download-artifact@v4
+        with:
+          name: unit-results
+          path: testing/reports/
+
+      - name: 📥 Download API & Functional Results
+        uses: actions/download-artifact@v4
+        with:
+          name: functional-results
+          path: testing/reports/
+
+      - name: 📥 Download Selenium Results
+        uses: actions/download-artifact@v4
+        with:
+          name: selenium-results
+          path: testing/reports/
+
+      - name: 📥 Download Mobile Results
+        uses: actions/download-artifact@v4
+        with:
+          name: mobile-results
+          path: testing/reports/
+
+      - name: 📊 Generate Excel Analysis Reports
+        run: |
+          PYTHONPATH=. python testing/generate_test_report.py --junit testing/reports/*.xml
 
       - name: 📤 Upload Functional & API Report
         uses: actions/upload-artifact@v4
